@@ -21,12 +21,12 @@ const _nav =  [
     to: '/orders',
     icon: 'cil-cursor',
   },
-  {
-    _tag: 'CSidebarNavItem',
-    name: 'Movers',
-    to: '/movers',
-    icon: 'cil-cursor',
-  },
+  // {
+  //   _tag: 'CSidebarNavItem',
+  //   name: 'Movers',
+  //   to: '/movers',
+  //   icon: 'cil-cursor',
+  // },
   {
     _tag: 'CSidebarNavItem',
     name: 'Customers',
