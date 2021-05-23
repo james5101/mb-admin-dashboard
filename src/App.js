@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import './scss/style.scss';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 
 const loading = (
   <div className="pt-3 text-center">
@@ -21,7 +22,9 @@ class App extends Component {
 
   render() {
     return (
+      
       <HashRouter>
+        <AmplifySignOut />
           <React.Suspense fallback={loading}>
             <Switch>
               <Route exact path="/login" name="Login Page" render={props => <Login {...props}/>} />
