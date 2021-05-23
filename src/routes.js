@@ -37,6 +37,10 @@ const Typography = React.lazy(() => import('./views/theme/typography/Typography'
 const Widgets = React.lazy(() => import('./views/widgets/Widgets'));
 const Users = React.lazy(() => import('./views/users/Users'));
 const User = React.lazy(() => import('./views/users/User'));
+const Customers = React.lazy(() => import('./views/customers/Customers'));
+const Customer = React.lazy(() => import('./views/customers/Customer'));
+const Orders = React.lazy(() => import('./views/orders/Orders'));
+const Order = React.lazy(() => import('./views/orders/Order'));
 
 const routes = [
   { path: '/', exact: true, name: 'Home' },
@@ -78,7 +82,11 @@ const routes = [
   { path: '/notifications/toaster', name: 'Toaster', component: Toaster },
   { path: '/widgets', name: 'Widgets', component: Widgets },
   { path: '/users', exact: true,  name: 'Users', component: Users },
-  { path: '/users/:id', exact: true, name: 'User Details', component: User }
+  { path: '/users/:id', exact: true, name: 'User Details', component: User },
+  { path: '/customers', exact: true,  name: 'Customers', component: Customers },
+  { path: '/customers/:id', exact: true, name: 'Customer Details', component: Customer },
+  { path: '/orders', exact: true,  name: 'Orders', component: Orders },
+  { path: '/orders/:id', exact: true, name: 'Order Details', component: Order }
 ];
 
 export default routes;
