@@ -9,7 +9,8 @@ import {
   CDataTable,
   CRow,
   CPagination,
-  CButton
+  CButton,
+  CCardFooter
 } from '@coreui/react'
 
 import ordersData from './OrdersData'
@@ -44,10 +45,9 @@ const Orders = () => {
         <CCard>
           <CCardHeader>
             Orders
-            <CButton
-              color="primary" 
-            >Add New Order</CButton>
+            
           </CCardHeader>
+          
           <CCardBody>
           <CDataTable
             items={ordersData}
@@ -81,6 +81,12 @@ const Orders = () => {
             doubleArrows={false} 
             align="center"
           />
+          <CCardFooter>
+          <CButton
+              color="primary" 
+              
+            >Add New Order</CButton>
+          </CCardFooter>
           </CCardBody>
         </CCard>
       </CCol>

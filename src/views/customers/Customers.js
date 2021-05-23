@@ -11,7 +11,8 @@ import {
   CPagination,
   CButton,
   CForm,
-  CInput
+  CInput,
+  CCardFooter
 } from '@coreui/react'
 
 import CustomersData from './CustomersData'
@@ -47,9 +48,7 @@ const Customers = () => {
         <CCard>
           <CCardHeader>
             Customers
-            <CButton
-              color="primary"
-            >Add New Customer</CButton>
+            
           </CCardHeader>
           
           <CCardBody>
@@ -85,6 +84,11 @@ const Customers = () => {
             doubleArrows={false} 
             align="center"
           />
+          <CCardFooter>
+          <CButton
+              color="primary"
+            >Add New Customer</CButton>
+          </CCardFooter>
           </CCardBody>
         </CCard>
       </CCol>
