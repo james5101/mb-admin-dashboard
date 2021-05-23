@@ -39,7 +39,7 @@ const Orders = () => {
 
   return (
     <CRow>
-      <CCol xl={6}>
+      <CCol xl={10}>
         <CCard>
           <CCardHeader>
             Orders
@@ -50,7 +50,7 @@ const Orders = () => {
             items={ordersData}
             fields={[
               { key: 'name', _classes: 'font-weight-bold' },
-              'orderNumber', 'name', 'servicesBooked', 
+              'orderNumber', 'name',  'promoSource','servicesBooked', 
             ]}
             hover
             striped

@@ -11,7 +11,7 @@ const WidgetsBrand = ({withCharts})=>{
   return withCharts ?
   <CRow>
     <CCol sm="6" lg="3">
-      <CWidgetBrand
+      {/* <CWidgetBrand
         color="facebook"
         rightHeader="89k"
         rightFooter="friends"
@@ -53,11 +53,11 @@ const WidgetsBrand = ({withCharts})=>{
           label="Followers"
           labels="months"
         />
-      </CWidgetBrand>
+      </CWidgetBrand> */}
     </CCol>
 
     <CCol sm="6" lg="3">
-      <CWidgetBrand
+      {/* <CWidgetBrand
         color="linkedin"
         rightHeader="500+"
         rightFooter="contracts"
@@ -76,11 +76,11 @@ const WidgetsBrand = ({withCharts})=>{
           label="Contracts"
           labels="months"
         />
-      </CWidgetBrand>
+      </CWidgetBrand> */}
     </CCol> 
 
     <CCol sm="6" lg="3">
-      <CWidgetBrand
+      {/* <CWidgetBrand
         rightHeader="12"
         rightFooter="events"
         leftHeader="4"
@@ -99,7 +99,7 @@ const WidgetsBrand = ({withCharts})=>{
           label="Followers"
           labels="months"
         />
-      </CWidgetBrand>
+      </CWidgetBrand> */}
     </CCol>
   </CRow> :
   

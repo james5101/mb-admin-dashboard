@@ -11,7 +11,7 @@ const Order = ({match}) => {
 
   return (
     <CRow>
-      <CCol lg={6}>
+      <CCol lg={10}>
         <CCard>
           <CCardHeader>
             Order id: {match.params.id}

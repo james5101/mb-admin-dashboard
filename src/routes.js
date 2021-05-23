@@ -35,7 +35,7 @@ const Modals = React.lazy(() => import('./views/notifications/modals/Modals'));
 const Colors = React.lazy(() => import('./views/theme/colors/Colors'));
 const Typography = React.lazy(() => import('./views/theme/typography/Typography'));
 const Widgets = React.lazy(() => import('./views/widgets/Widgets'));
-const Users = React.lazy(() => import('./views/users/Users'));
+// const Users = React.lazy(() => import('./views/users/Users'));
 const User = React.lazy(() => import('./views/users/User'));
 const Customers = React.lazy(() => import('./views/customers/Customers'));
 const Customer = React.lazy(() => import('./views/customers/Customer'));
@@ -81,8 +81,8 @@ const routes = [
   { path: '/notifications/modals', name: 'Modals', component: Modals },
   { path: '/notifications/toaster', name: 'Toaster', component: Toaster },
   { path: '/widgets', name: 'Widgets', component: Widgets },
-  { path: '/users', exact: true,  name: 'Users', component: Users },
-  { path: '/users/:id', exact: true, name: 'User Details', component: User },
+  // { path: '/users', exact: true,  name: 'Users', component: Users },
+  // { path: '/users/:id', exact: true, name: 'User Details', component: User },
   { path: '/customers', exact: true,  name: 'Customers', component: Customers },
   { path: '/customers/:id', exact: true, name: 'Customer Details', component: Customer },
   { path: '/orders', exact: true,  name: 'Orders', component: Orders },

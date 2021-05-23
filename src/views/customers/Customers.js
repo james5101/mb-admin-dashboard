@@ -39,7 +39,7 @@ const Customers = () => {
 
   return (
     <CRow>
-      <CCol xl={6}>
+      <CCol xl={10}>
         <CCard>
           <CCardHeader>
             Customers
@@ -49,7 +49,7 @@ const Customers = () => {
             items={CustomersData}
             fields={[
               { key: 'name', _classes: 'font-weight-bold' },
-              'orderDate', 'confirmationNumber', 'leadStatus'
+              'movingCompany', 'primaryAddress', 'promoCode','leadStatus'
             ]}
             hover
             striped

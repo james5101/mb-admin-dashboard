@@ -24,7 +24,6 @@ class App extends Component {
     return (
       
       <HashRouter>
-        <AmplifySignOut />
           <React.Suspense fallback={loading}>
             <Switch>
               <Route exact path="/login" name="Login Page" render={props => <Login {...props}/>} />
