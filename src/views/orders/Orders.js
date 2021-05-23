@@ -57,6 +57,8 @@ const Orders = () => {
             ]}
             hover
             striped
+            columnFilter
+            tableFilter
             itemsPerPage={5}
             activePage={page}
             clickableRows

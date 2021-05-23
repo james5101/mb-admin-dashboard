@@ -9,7 +9,9 @@ import {
   CDataTable,
   CRow,
   CPagination,
-  CButton
+  CButton,
+  CForm,
+  CInput
 } from '@coreui/react'
 
 import CustomersData from './CustomersData'
@@ -38,6 +40,7 @@ const Customers = () => {
     currentPage !== page && setPage(currentPage)
   }, [currentPage, page])
 
+  
   return (
     <CRow>
       <CCol xl={10}>
@@ -58,6 +61,8 @@ const Customers = () => {
             ]}
             hover
             striped
+            columnFilter
+            tableFilter
             itemsPerPage={5}
             activePage={page}
             clickableRows
