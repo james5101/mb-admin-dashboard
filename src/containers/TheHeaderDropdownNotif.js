@@ -10,7 +10,7 @@ import {
 import CIcon from '@coreui/icons-react'
 
 const TheHeaderDropdownNotif = () => {
-  const itemsCount = 5
+  const itemsCount = 2
   return (
     <CDropdown
       inNav
@@ -30,7 +30,7 @@ const TheHeaderDropdownNotif = () => {
           <strong>You have {itemsCount} notifications</strong>
         </CDropdownItem>
         <CDropdownItem><CIcon name="cil-chart-pie" className="mr-2 text-info" /> Sales report is ready</CDropdownItem>
-        <CDropdownItem><CIcon name="cil-basket" className="mr-2 text-primary" /> New client</CDropdownItem>
+        <CDropdownItem><CIcon name="cil-basket" className="mr-2 text-primary" /> New lead assigned to you</CDropdownItem>
       </CDropdownMenu>
     </CDropdown>
   )

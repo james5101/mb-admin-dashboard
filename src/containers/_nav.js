@@ -121,6 +121,12 @@ const _nav =  [
     //   },
     // ],
   },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Reports',
+    to: '/reports',
+    icon: 'cil-cursor',
+  },
   // {
   //   _tag: 'CSidebarNavDropdown',
   //   name: 'Buttons',
