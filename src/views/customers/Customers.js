@@ -8,7 +8,8 @@ import {
   CCol,
   CDataTable,
   CRow,
-  CPagination
+  CPagination,
+  CButton
 } from '@coreui/react'
 
 import CustomersData from './CustomersData'
@@ -43,7 +44,11 @@ const Customers = () => {
         <CCard>
           <CCardHeader>
             Customers
+            <CButton
+              color="primary"
+            >Add New Customer</CButton>
           </CCardHeader>
+          
           <CCardBody>
           <CDataTable
             items={CustomersData}
