@@ -21,6 +21,12 @@ const _nav =  [
     to: '/orders',
     icon: 'cil-cursor',
   },
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Promotions',
+    to: '/promotions',
+    icon: 'cil-cursor',
+  },
   // {
   //   _tag: 'CSidebarNavItem',
   //   name: 'Movers',
